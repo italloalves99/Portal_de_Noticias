@@ -1,0 +1,70 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+header{
+    padding: 8px 0;
+    background-color: #0aacdc;
+}
+
+.center{
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 2%;
+    display: flex;
+}
+
+.logo{
+    width:50%;
+}
+
+.logo h2{
+    color: white;
+}
+
+.form-busca{
+    width: 50%;
+    text-align: right;
+}
+
+.form-busca form{
+    display: inline-block;
+    position: relative;
+}
+
+.form-busca i{
+    position: absolute;
+    left: 10px;
+    top: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 5px;
+}
+
+.form-busca input{
+    height: 40px;
+    border: 0;
+    font-size: 20px;
+    background-color: #008bb4;
+    padding-left: 20px;
+    border-radius: 10px;
+    padding-left: 40px;
+    color: white;
+}
+
+/* hacks */
+::placeholder { /* Chrome, Firefox, Opera, Safari 10,1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+    color: white;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+    color: white;
+}
